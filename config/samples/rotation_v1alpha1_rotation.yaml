@@ -1,0 +1,9 @@
+apiVersion: rotation.security.io/v1alpha1
+kind: Rotation
+metadata:
+  labels:
+    app.kubernetes.io/name: andrecbrera
+    app.kubernetes.io/managed-by: kustomize
+  name: rotation-sample
+spec:
+  # TODO(user): Add fields here
